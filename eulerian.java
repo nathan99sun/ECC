@@ -255,6 +255,7 @@ public class eulerian {
 	     {
 	    	 
 	     }
+	     System.out.println("Coefficients of nth q-Eulerian polynomial:");
 	     for(int[] row : store) {
 	            printRow(row);
 	        }
