@@ -240,7 +240,17 @@ def test():
             print("Acc:" , 100. * correct / total)
     print('Accuracy: %d %%' % (
             100 * correct / total))
-for epoch in range(start_epoch, start_epoch+10):
+
+
+
+
+# Number of epochs:
+x=10
+
+
+
+
+for epoch in range(start_epoch, start_epoch+x):
     print("learning rate:", learning_rate,"channel size: ", size)
     train(epoch)
     validate(epoch)
