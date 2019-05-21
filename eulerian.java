@@ -205,7 +205,7 @@ public class eulerian {
 	
 	 public static void main(String[] args) { 
 		 String output = "";
-		 System.out.println("n=:");
+		 System.out.println("n=:   (It's advised that n<=10 due to data limitations)");
 		 Scanner scan = new Scanner(System.in);
 		int ss = scan.nextInt();
 		 
@@ -255,17 +255,18 @@ public class eulerian {
 	     {
 	    	 
 	     }
-	     System.out.println("Coefficients of nth q-Eulerian polynomial:");
+	     System.out.println("Coefficients of nth q-Eulerian polynomial (horizontal axis is the power of x, starting from the right, while vertical axis is the power of q, starting from the top):");
 	     for(int[] row : store) {
 	            printRow(row);
 	        }
-	     System.out.println("Nathan Sun, nsun1@exeter.edu, 11");
-	     System.out.println("Not planning to go abroad, proctor, Stu Lis, Symphony Orchestra");
-	     System.out.println("Volunteered at HackExeter, attended USACO training sessions. I really enjoyed solving USACO problems, as they gave really clever solutions and insights that helped me develop as a programmer.");
-	     System.out.println("USACO Gold, CS405, 505, 590, 999. Experience in machine learning and deep learning (in class). I do USACO out of class and made this program as part of my research program at PROMYS to generate data for Eulerian polynomials. See https://arxiv.org/pdf/1702.02446.pdf, https://arxiv.org/pdf/1809.07398.pdf");
+	     System.out.println("Nathan Sun, nsun1@exeter.edu, 11th grade");
+	     System.out.println("Not planning to go abroad. Responsibilities: proctor, Stu Lis, Symphony Orchestra");
+	     System.out.println("USACO Gold, CS405, 505, 590, 999. I have some experience in machine learning and deep learning (999 in class). I participate in USACO out of class and I created this program as part of my research at PROMYS to generate data for Eulerian polynomials, something which previously was unknown. See https://arxiv.org/pdf/1702.02446.pdf, https://arxiv.org/pdf/1809.07398.pdf for algorithms");
+	     System.out.println("I volunteered and mentored/planned HackExeter and attended USACO training sessions during the fall and winter. I really enjoyed learning how to solve USACO problems, as they are often really clever solutions. The insights I gained from USACO definitely helped me develop as a programmer.");
+	     System.out.println("Further, I enjoy applying computer science to other areas of research- the q-Eulerian polynomial project was the best summer of my life.");
 	     System.out.println("I would like to help organize ECC events next year and spread interest in CS, which I believe is a vastly underrated topic at Exeter. Also, I would like to organize trips to CS events outside Exeter.");
-	     System.out.println("Cryptography (especially when it's related to number theory) and machine/deep learning");
-	    }
+	     System.out.println("Ideas for ECC next year: perhaps something like HackExeter, but for Exonians. CS is an largely overlooked field in Exeter, and perhaps more could be done to encourage people to start programming.");	    
+}
 }
 
 
