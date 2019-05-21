@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 public class eulerian {
 	static ArrayList<Integer> entered  = new ArrayList<Integer>();
 	
@@ -204,13 +205,14 @@ public class eulerian {
 	
 	 public static void main(String[] args) { 
 		 String output = "";
+		 System.out.println("n=:");
+		 Scanner scan = new Scanner(System.in);
+		int ss = scan.nextInt();
 		 
 		 
 		 
 		 
-		 
-		 
-		 int sizeofset = 5;
+		 int sizeofset = ss;
 		 
 		 
 		 
